@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "PDF Rotator",
+    "version": "1.0",
+    "description": "Rotate PDF pages in your browser.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}

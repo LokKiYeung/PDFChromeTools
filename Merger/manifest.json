@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "PDF Merger",
+    "version": "1.0",
+    "description": "Merge PDF files in your browser.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}
